@@ -1,0 +1,504 @@
+
+import bg3 from './images/f92eef46773f82ee1ca63f1de6cfa7b37d5592cf.png'
+import bg2 from './images/84bec9ed59ccf3a0a97d9bf43b50ac6744219825.png'
+import bg1 from './images/4e7c76a299bc371d994ad2ac98369291f13d4b5d.png'
+import bg6 from './images/1278cfd5dc8c7291885c7e0660c242ca8fbdcf18.png'
+import bg5 from './images/793bbc84b803feef4177f15823f6ebc136ffb832.png'
+import bg4 from './images/14046396419ce371ae85ad6b89ca38d3f5f4fcb8.png'
+
+import item1 from './images/machine-robot.svg'
+import item2 from './images/battery-charging-02.svg'
+import item3 from './images/usb.svg'
+import item4 from './images/mic-01.svg'
+import item5 from './images/notebook.svg'
+import item6 from './images/automotive-battery-02.svg'
+import item7 from './images/battery-full.svg'
+import item8 from './images/certificate.svg'
+import item9 from './images/electric-plugs.svg'
+import item10 from './images/wireless.svg'
+import item11 from './images/smartphone-wifi.svg'
+import item12 from './images/square-arrow-data-transfer-horizontal-sharp.svg'
+import item13 from './images/transmission.svg'
+
+
+import max1 from './images/max1.png'
+import max2 from './images/max2.png'
+import max3 from './images/max3.png'
+import max4 from './images/max4.png'
+import proMax1 from './images/pro1.png'
+import proMax2 from './images/pro2.png'
+import proMax3 from './images/pro3.png'
+import proMax4 from './images/pro4.png'
+
+import D1 from './images/D1.png'
+import D2 from './images/D2.png'
+import D3 from './images/D3.png'
+import D4 from './images/D4.png'
+
+export const descriptionConfig = {
+    a2: {
+        high : true,
+        path: '/description/a2',
+        price : true,
+        video: {
+            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            title: 'Mangobot A2 Ultra',
+            text: ['Full-Size Humanoid Robot', 'Large-scale commercial deployment, proven in real environments'],
+        },
+        bg: {
+            imgs: [
+                {
+                    img: bg1,
+                    title: 'Entertainment & Commercial Performance',
+                    text: 'Event promotion, brand enhancement, skill-based interaction'
+                },
+                {
+                    img: bg2,
+                    title: 'Sales / Reception / Guidance / Co-Host / DJ',
+                    text: 'Events, exhibitions, ceremonies, parties, podcasts'
+                },
+                {
+                    img: bg3,
+                    title: 'IP-Customized Brand Ambassador',
+                    text: 'Image customization, brand personality, visual identity upgrade'
+                }
+            ]
+        },
+        Items : [
+            { title: "Robot body x1", img: item1 },
+            { title: "Battery charger x1", img: item2 },
+            { title: "Accessory charger x1", img: item3 },
+            { title: "Lavalier microphone x1", img: item4 },
+            { title: "Battery pack x1", img: item5 },
+            { title: "Wireless emergency stop switch x1", img: item6 },
+            { title: "Wireless remote controller x1", img: item7 },
+            { title: "Transfer device x1", img: item8 },
+        ],
+        attributes: {
+            items: [
+                {
+                    title: 'Height',
+                    value: '169cm'
+                },
+                {
+                    title: 'Weight',
+                    value: '69kg'
+                },
+                {
+                    title: "Runtime",
+                    value: "3 hours"
+                  },
+                  {
+                    title: "DOF",
+                    value: "40"
+                  },
+                  {
+                    title: "Battery",
+                    value: "700wh"
+                  },
+                  {
+                    title: "Turning Radius",
+                    value: "60cm"
+                  },
+                  {
+                    title: "Daily Rental",
+                    value: "AED 20,000 per unit"
+                  },
+            ]
+        }
+    },
+    x2: {
+        precision : true,
+        price : true,
+        path: '/description/x2',
+        video: {
+            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            title: 'Mangobot X2 Ultra',
+            text: ['Agile. Intelligent. Delightfully Human.'],
+        },
+        process : [
+            {
+                title: "Self-Directed Navigation",
+                copy:
+                  "Powered by LiDAR and RGB-D vision, Mangobot X2 Ultra continuously maps its environment and plots optimal routes in real time.",
+              },
+              {
+                title: "Proactive Obstacle Avoidance",
+                copy:
+                  "With LiDAR, RGB-D cameras, front stereo vision and intelligent algorithms, the robot detects obstacles ahead and adjusts its path proactively.",
+              },
+              {
+                title: "Automatic Energy Replenishment",
+                copy:
+                  "When battery power is low, the robot autonomously locates charging equipment and performs automatic charging without human intervention.",
+              },
+        ],
+        attributes : 
+        {
+            items : [
+            {
+                title: "Height",
+                value: "130cm"
+              },
+              {
+                title: "Weight",
+                value: "37kg"
+              },
+              {
+                title: "Runtime",
+                value: "3 hours"
+              },
+              {
+                title: "DOF",
+                value: "31"
+              },
+              {
+                title: "Battery",
+                value: "500Wh"
+              },
+              {
+                title: "Max End Load",
+                value: "3kg"
+              },
+              {
+                title: "Daily Rental",
+                value: "AED 20,000 per unit"
+              },
+            ]
+        },
+        Items : [
+            { title: "Robot body ×1", img: item1 },
+            { title: "Charging Adapter ×1", img: item2 },
+            { title: "Remote Controller ×1", img: item3 },
+            { title: "Microphone ×1", img: item4 },
+            { title: "Quick Start Guide ×1", img: item9 },
+            { title: "Battery Package", img: item10 },
+            { title: "Rechargeable Battery ×1", img: item11 },
+            { title: "Certificate of Conformity ×1", img: item12 },
+        ],
+        bg : {
+            imgs: [
+                {
+                    img: bg4,
+                    title: 'Human-Like Interaction',
+                    text: 'Visual, voice, touch, and facial expression interaction combined to enable natural, context-aware communication across diverse environments.'
+                },
+                {
+                    img: bg5,
+                    title: 'Lifelike Agility',
+                    text: 'Humanoid motion, expressive movement, and synchronized head and waist motion deliver fluid, realistic performance and dynamic presence.'
+                },
+                {
+                    img: bg6,
+                    title: 'Intelligent Autonomy',
+                    text: 'Autonomous navigation, proactive obstacle avoidance, and self-managed energy systems powered by intelligent, algorithm-driven decision making.'
+                }
+            ]
+        }
+    },
+    d1: {
+        price : true,
+        path: '/description/d1',
+        video: {
+            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            title: 'Mangobot D1 Ultra',
+            text: ['Industrial-grade compact quadruped robot', 'Purpose-built for advanced industrial and specialized operations'],
+        },
+        tech : [
+            {
+                label: "Product Positioning",
+                value: "Compact yet Powerful – Industry Grade",
+            },
+            {
+                label: "Application scenarios",
+                value: "Special operations, emergency response, security, inspection, education, entertainment",
+            },
+            {
+                label: "Standing Dimensions",
+                value: "63x36x42cm",
+            },
+            {
+                label: "Folded Dimensions",
+                value: "67x43x15cm",
+            },
+            {
+                label: "Operation and control capabilities",
+                value: "Standard RL-based operation and control",
+            },
+            {
+                label: "Speed",
+                value: "0~3.7m/s (limit ~5m/s)",
+            },
+            {
+                label: "Static load",
+                value: "≈8kg (limit ~10kg)",
+            },
+            {
+                label: "Unloaded range (1.8m/s)",
+                value: "6km",
+            },
+            {
+                label: "Loaded range (5kg)",
+                value: "4km",
+            },
+            {
+                label: "Protection level",
+                value: "IP54",
+            },
+            {
+                label: "Stable Operating Time in Extreme Environments",
+                value: "200h",
+            },
+            {
+                label: "Peak output power of the whole machine",
+                value: "about 3,500W",
+            },
+            {
+                label: "Joint motor peak torque",
+                value: "about 48N-m",
+            },
+            {
+                label: "Joint motor peak power density",
+                value: "2kw/kg",
+            },
+            {
+                label: "Joint control mode",
+                value: "dual encoding",
+            },
+            {
+                label: "Expansion interface",
+                value: "Ethernet port, USB port, power port (12V/24V), SBUS port, UART port",
+            },
+            {
+                label: "Supported expansion",
+                value: "3D radar, depth camera, RTK, 4g module, image transmission module, follow-up module, application layer loading, etc.",
+            },
+        ],
+        preview : [
+            {
+                linear : 'linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%),',
+                bgImg : D1,
+                postion : '50%',
+                size : 'cover',
+                isTop : false,
+                title : 'Built for Harsh Environment',
+                text : [
+                    'Dustproof and waterproof construction engineered for long-term reliability.', 
+                    'High resistance to splashing, damp, muddy, and sandy environments, ', 
+                    'reinforced by vacuum press-formed aluminum alloy shafts and sealed, anti-corrosion core components.'
+                    ]
+            },
+            {
+                bgImg : D3,
+                linear : 'linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%),',
+                postion : '50%',
+                size : 'cover',
+                isTop : false,
+                title : 'Terrain-Adaptive Mobility',
+                text : ['Robust mobility powered by RL-based gait control, delivering self-balancing, anti-tipping, and disturbance rejection across complex terrains.',
+                'Supports a maximum running speed of 3.7 m/s, slope climbing angles of ≥30°, forward or upward jumps up to 35 cm, and continuous stair climbing up to 16 cm.']
+            },
+            {
+                bgImg : D2,
+                linear : 'linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%),',
+                postion : '0px -328.909px',
+                size : '100% 342.353%', 
+                isTop : true,
+                title : 'High-Torque Motor Performance',
+                text : ['High-performance motors deliver 48 N-m peak torque for complex terrain and high-load operations.',
+                'Impact-resistant modules ensure long service life, while the dual-encoder controller enables calibration-free operation, ready for use immediately at startup.']
+            },
+            {
+                bgImg : D4,
+                linear : 'linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%),',
+                postion : '50%',
+                size : 'cover',
+                isTop : false,
+                title : 'Open & Flexible Development',
+                text : ['Designed for modular deployment with standardized interfaces supporting a wide range of mounted payloads.',
+                'Features an open SDK for secondary development, compatibility with positioning modules, LiDAR, depth cameras, RTK, 4G/5G, and image transmission modules.',
+                'Supports URDF modeling for simulation in platforms such as Isaac Sim and Mujoco.']
+            }
+        ]
+    },
+    g1: {
+        price : true,
+        path: '/description/g1',
+        video: {
+            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            title: 'Mangobot G1 Ultra',
+            text: ['General-purpose robot built for intelligent data collection and real-time model inference'],
+            textRight: ['Designed to gather rich environmental data and support continuous learning and AI model optimization.']
+        }
+    },
+    d1Max: {
+        path: '/description/d1Max',
+        video: {
+            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            title: 'Mangobot D1 Max',
+            text: ['Intelligent Hybrid Quadruped Robot', 'A lightweight yet powerful robot combining legged and wheeled mobility, intelligent perception, and industrial-grade protection to operate seamlessly across complex terrain and mission-critical environments.'],
+        },
+        Items : [
+            { title: "D1 Max Robot Dog Platform *1 Unit", img: item1 },
+            { title: "Charger *1 Piece", img: item2 },
+            {
+                title : 'Handheld Remote *1 Piece',
+                img : item13
+            }
+        ],
+        tech : [
+            {
+                label: "Standing Dimensions (L x W x H)",
+                value: "Approx. 80 × 50 × 60 cm",
+              },
+              {
+                label: "Folded Dimensions",
+                value: "Approx. 89 × 50 × 26 cm",
+              },
+              {
+                label: "Weight",
+                value: "Approx. 30 kg (including battery)",
+              },
+              {
+                label: "Legged Walking Speed",
+                value: "> 4 m/s",
+              },
+              {
+                label: "Wheeled Driving Speed",
+                value: "> 8 m/s",
+              },
+              {
+                label: "Maximum Obstacle Height",
+                value: "22 cm",
+              },
+              {
+                label: "Obstacle Crossing Height",
+                value: "80 cm",
+              },
+              {
+                label: "Trench Crossing Width",
+                value: "80 cm",
+              },
+        ],
+        usecase : true,
+        preview : [
+            {
+                linear : 'linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), ',
+                bgImg : max1,
+                postion : '50%',
+                size : 'cover',
+                isTop : false,
+                title : 'Adaptive Terrain Mobility',
+                text : ['Agile movement with wide joint articulation and intelligent posture control, enabling stable climbing and smooth navigation across complex terrain.']
+            },
+            {
+                bgImg : max2,
+                linear  : 'linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%),',
+                postion : '0px -54.072px',
+                size : '100% 128.193%',
+                isTop : false,
+                title : 'Lightweight Power, Heavy Payload',
+                text : ['Ultra-light design with a near 1:1 load-to-weight ratio, supporting payloads up to 30 kg, around 50% higher than comparable robots.']
+            },
+            {
+                bgImg : max3,
+                linear : 'linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0.00) 100%),',
+                postion : '50%',
+                size : 'cover',
+                isTop : true,
+                title : 'Continuous Operation',
+                text : ['Autonomous charging and hot-swappable batteries enable uninterrupted performance during extended missions.']
+            },
+            {
+                bgImg : max4,
+                linear : 'linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%),',
+                postion : '0px -167.322px',
+                size : '100% 128.193%',
+                isTop : false,
+                title : 'Industrial Resilience & Expansion',
+                text : [' IP67 protection and operation from –20°C to 55°C, with abundant interfaces and multi-voltage power support for high-power expansion.']
+            }
+        ]
+    },
+    d1ProMax: {
+        path: '/description/d1ProMax',
+        video: {
+            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            title: 'Mangobot D1 Pro Max',
+            text: ['Intelligent quadruped built for extreme environments', 'Built for force, endurance, and harsh environments']
+        },
+        scenarios : true,
+        tech : [
+            {
+                label: "Standing Dimensions (L x W x H)",
+                value: "123 × 53 × 73 cm",
+              },
+              {
+                label: "Weight",
+                value: "64 kg",
+              },
+              {
+                label: "Battery Capacity",
+                value: "2160 Wh",
+              },
+              {
+                label: "Autonomous Charging",
+                value: "Optional",
+              },
+              {
+                label: "Maximum Speed",
+                value: "3.5 m/s",
+              },
+              {
+                label: "Maximum Load",
+                value: "100 kg",
+              },
+              {
+                label: "Effective Load",
+                value: "50 kg",
+              },
+              {
+                label: "Maximum Climbing Angle",
+                value: "45°",
+              },
+        ],
+        preview : [
+            {
+                linear : 'linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%),',
+                bgImg : proMax1,
+                postion : '50%',
+                size : 'cover',
+                isTop : false,
+                title : 'Heavy Payload, Stable Performance',
+                text : ['D1 Max Pro supports up to 50 kg continuous payload and 100 kg maximum load, enabling equipment mounting, cargo transport, and material handling without compromising balance or control']
+            },
+            {
+                bgImg : proMax2,
+                linear : 'linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%),',
+                postion : '50%',
+                size : 'cover',
+                isTop : false,
+                title : 'Endurance You Can Rely On',
+                text : ['A high-capacity 2160 Wh battery delivers up to 2.5 hours of operation under load and 5.5 hours when unloaded. Hot-swappable battery design ensures minimal downtime, with optional autonomous charging available for extended deployments.']
+            },
+            {
+                bgImg : proMax3,
+                linear : 'linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%),',
+                postion : '50%',
+                size : 'cover',
+                isTop : true,
+                title : 'True All-Terrain Mobility',
+                text : ['D1 Max Pro climbs 30 cm steps, navigates industrial staircases, and maintains stability through integrated fall-recovery mechanisms. Its motion system is optimized for agility, resilience, and continuous operation in dynamic environments.']
+            },
+            {
+                bgImg : proMax4,
+                linear : 'linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%),',
+                postion : '50%',
+                size : 'cover',
+                isTop : false,
+                title : 'Industrial-Grade Environmental Resistance',
+                text : [' With IP67 protection, D1 Max Pro operates reliably in extreme conditions. It withstands rain, dust, and harsh weather, functions between -20°C and 55°C, and tolerates shallow water immersion, making it suitable for outdoor, industrial, and emergency scenarios.']
+            }
+        ]
+    }
+}
