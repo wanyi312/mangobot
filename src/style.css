@@ -1,7 +1,19 @@
-:root{
-  
+@font-face {
+    font-family: 'Syne';  /* 给你的字体起个名字 */
+    src: url('./assets/font/Syne-VariableFont_wght.ttf'); /* 指向 .ttf 文件的路径 */
 }
 
-body{
+@font-face {
+    font-family: 'Cormorant Garamond';  /* 给你的字体起个名字 */
+    src: url('./assets/font/CormorantGaramond-VariableFont_wght.ttf'); /* 指向 .ttf 文件的路径 */
+}
 
+@font-face {
+    font-family: 'Manrope';  /* 给你的字体起个名字 */
+    src: url('./assets/font/Manrope-VariableFont_wght.ttf'); /* 指向 .ttf 文件的路径 */
+}
+
+@font-face {
+    font-family: 'Montserrat';  /* 给你的字体起个名字 */
+    src: url('./assets/font/Montserrat-VariableFont_wght.ttf'); /* 指向 .ttf 文件的路径 */
 }

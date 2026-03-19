@@ -26,7 +26,7 @@ export default defineConfig({
       plugins: [
         postCssPxToViewport({
           unitToConvert: 'px',
-          viewportWidth: 1440, // 根据你的 Figma 设计稿宽度设置（通常是 1440）
+          viewportWidth: 1920, // 根据你的 Figma 设计稿宽度设置（通常是 1440）
           unitPrecision: 5,
           propList: ['*'],
           viewportUnit: 'vw',
